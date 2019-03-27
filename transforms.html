@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>transforms page</title>
+  <style>
+    body {
+      background-color: #fedcba;
+    }
+
+    div {
+      width: 100px;
+      height: 100px;
+      background-color: #987654;
+      margin: 1rem;
+
+    }
+
+    #box1 {
+      transition:transform .5s, border-radius 1s;
+      background:url("knifeAragorn3.jpg")
+    }
+
+    #box1:hover {
+      transform:rotate(4730deg);
+      border-radius:20px;
+      background:url("video.gif");
+    }
+
+    #box2 {
+      transition:transform .5s, background-color .5s;
+    }
+
+    #box2:hover {
+      transform:scale(1.125);
+      background-color:orange;
+    }
+
+    #box3 {
+      transition: transform 1s, background-color 1.5s;
+    }
+
+    #box3:hover {
+      transform:rotate(10deg);
+      background-color:red;
+    }
+
+    #box4 {
+      transition: transform 3s, background-color 3s;
+    }
+
+    #box4:hover {
+      transform: skewX(20deg);
+      background-color:green;
+    }
+
+    #box5 {
+      transition: transform 2s, background-color 2s;
+    }
+
+    #box5:hover {
+      transform:skewY(50deg);
+      background-color:yellow;
+    }
+
+    #box6 {
+      transition: transform 3s, background-color 2s;
+    }
+
+    #box6:hover {
+      transform: skew(20deg, 40deg);
+      background-color: black;
+    }
+
+    #box7 {
+      transition: transform .5s;
+    }
+
+    #box7:hover {
+      transform: matrix3d(1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6);
+      background:url("MIKEY100.gif");
+    }
+
+    #box8 {
+      transition: transform 5s;
+    }
+
+    #box8:hover {
+      background:url("knifeAragorn3.jpg");
+      transform: scale(20);
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="box1"> </div>
+  <div id="box2"> </div>
+  <div id="box3"> </div>
+  <div id="box4"> </div>
+  <div id="box5"> </div>
+  <div id="box6"> </div>
+  <div id="box7"> </div>
+  <div id="box8"> </div>
+</body>
+
+</html>
