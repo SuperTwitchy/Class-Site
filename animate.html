@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>animation</title>
+    <style>
+
+      body{
+        background:url("MIKE.gif")
+      }
+
+
+
+
+
+
+    .george{
+      width:100px;
+      height:100px;
+      background-color:blue;
+      margin:30px;
+      animation-name: example;
+      animation-duration: .5s;
+      animation-iteration-count:infinite;
+      animation-direction:alternate;
+    }
+
+    @keyframes example {
+      0%   {
+        background-color: red;
+        transform:scale(1.5);
+      }
+
+      25%  {
+        background-color: yellow;
+        border-radius:50%;
+      }
+
+      50%  {
+        background-color: blue;
+      }
+
+      100% {
+        background-color: green;
+      }
+    }
+
+    .orange{
+      width:100px;
+      height:100px;
+      background-color:black;
+      animation-name:orange;
+      animation-duration:.5s;
+      margin:30px;
+      animation-iteration-count:infinite;
+      border-radius:25%;
+      animation-direction:alternate;
+    }
+
+    @keyframes orange {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+
+    .blue{
+      width:100px;
+      height:100px;
+      background-color:blue;
+      animation-name:blue;
+      margin:30px;
+      animation-duration:1s;
+      animation-iteration-count:infinite;
+      animation-direction:alternate;
+    }
+
+    @keyframes blue {
+      to {
+        transform: rotate(180deg);
+      }
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+      0%   {
+        background-color: red;
+        transform:scale(1.5);
+      }
+
+      25%  {
+        background-color: yellow;
+        border-radius:50%;
+      }
+
+      50%  {
+        background-color: blue;
+      }
+
+      100% {
+        background-color: green;
+      }
+    }
+
+
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+
+  <div class="george"> </div>
+
+  <div class="orange"> </div>
+
+  <div class="blue"> </div>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
