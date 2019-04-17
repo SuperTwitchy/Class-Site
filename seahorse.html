@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      *{box-sizing:border-box;}
+
+      main{
+        width:80%;
+        margin:0 auto;
+        background:tan;
+      }
+
+      img{
+        float:right;
+      }
+
+      nav{
+        width:20%;
+        background:orange;
+        float:left;
+      }
+
+      article{
+        width:80%;
+        background:red;
+        float:left;
+      }
+
+      .clearfix::after{
+        content:"";
+        clear:both;
+        display:table;
+      }
+
+
+
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+
+    <main>
+
+      <header class="clearfix">
+        <h1>Seahorse Serenity</h1>
+        <img src="PotatoMan.png" alt="Seahorse"> </img>
+      </header>
+
+
+
+
+
+      <div id="content" class="clearfix">
+        <nav>
+          <h2>Navigation</h2>
+
+        </nav>
+
+
+
+        <article>
+          <h2>Content</h2>
+
+        </article>
+
+      </div>
+
+
+
+
+
+
+      <footer class="clearfix">
+        <h2> Footer Links</h2>
+        <p>Copywright Stuff</p>
+
+      </footer>
+    </main>
+  </body>
+</html>
