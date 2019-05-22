@@ -1,0 +1,72 @@
+body{
+  background: lightgreen;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;
+}
+.span-col-2{
+grid-column: span 2 / auto;
+}
+
+.span-col-3{
+grid-column: span 3 / auto;
+}
+
+.span-row-2{
+grid-row: span 2 / auto;
+}
+
+.copyright{
+  text-align:center;
+  background-color:brown;
+  border-radius:10px;
+  width:auto;
+  padding:5px;
+  color:white;
+}
+
+.about{
+  text-align:center;
+}
+
+header{
+  text-align: center;
+  background:green;
+  border-radius: 20px;
+  font-size: 40px;
+  color:white;
+  width:auto;
+  padding:5px;
+}
+
+img{
+  height:250px;
+}
+
+ul{
+  list-style-type: none;
+  background:brown;
+  color:white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+h2{
+  text-align: center;
+}
+
+body{
+  background:
+}
+
+.top{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
