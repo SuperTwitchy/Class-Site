@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+
+    body{
+      background: url("trianglify3.png") no-repeat fixed;
+      background-size:cover;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+
+    .span-col-2{
+      grid-column: span 2 / auto;
+    }
+
+    .span-col-3{
+        grid-column: span 3 / auto;
+        text-align: center;
+    }
+
+    h1{
+      text-align: center;
+      background: yellow;
+      width: 500px;
+      border-radius: 30px;
+      height: 75px;
+      padding:20px;
+      font-size: 60px;
+      border: 1px solid black;
+    }
+
+    #title{
+      margin:auto;
+    }
+
+    nav{
+      background:lightblue;
+      border-radius: 20px;
+      border: 2px solid white;
+      margin:auto;
+    }
+
+    .navigate{
+      padding-top:60px;
+    }
+
+
+    p{
+      background: #ffff0088;
+      width: 0 auto;
+      height: 0 auto;
+      padding: 30px;
+      border-radius: 30px;
+      border: 1px solid white;
+    }
+
+    .footer{
+      padding:10px
+    }
+
+
+    </style>
+  </head>
+  <body>
+
+    <div class="grid">
+      <div class="span-col-2" id="title"><h1>My Portfolio</h1></div>
+
+      <div class="navigate">
+        <nav>
+          <ul>
+            <li><a href="Portfolio/index.html">Home</a></li>
+            <li><a href="Portfolio/portfolio.html">Gallery</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="span-col-3"><p>Hello everyone! My name is Josh Cronk. I was a Lansing
+        Community College student for one year in my 11th grade year of the 2018/2019 school year. I took the Digital
+        Media & Design Class. In this class, I learned how to use Photoshop and learned
+        how to create my own website. I like creating my own memes/cursed images. I like doing puzzles, and
+        my favorite game is Dark Souls. I like anime, so yes, I am a weeb, I guess. You should
+        check out my gallery and see what I've done.
+
+      </p></div>
+
+      <div class="span-col-3" id="footer"><p class="footer">E-mail: SuperTwitchy01@gmail.com - Linkedin: https://www.linkedin.com/in/joshua-cronk-2a1220185</p></div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </body>
+</html>
